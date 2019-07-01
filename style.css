@@ -1,25 +1,70 @@
 body {
-    background: blue;
+    background: black;
 }
-h1, h2 {
-
-    color: aqua;
-
-}
-
-p {
-  font-style: italic;
-}
-
-div {
-background: black;
-width: 50%;
-}
-.boxOne {
-    width: 50%;
-    border:1px inset  white ;
-    background: red;
+.post {
+    background: white;
     margin: auto;
-    position: absolute;
+    width: 400px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.headerTitle{
+    display: flex;
+    flex-direction:column;
 }
 
+.lastP{
+    margin:10px;
+}
+.icons{
+    display: flex;
+    flex-direction:row;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.footer{
+    display: flex;
+    flex-direction:column;
+    margin-top: 0px;
+}
+
+.bookmark{
+    margin: 10px;
+    text-align: right;
+    width:100%;
+    margin-bottom: 0px;
+}
+.headerFirst{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 120px;
+}
+.headerFirst p{
+    margin: 0px;
+}
+.headerHtml i{
+    margin:10px;
+    margin-top:5px;
+}
+.headerMenu {
+    margin: 10px;
+    text-align: right;
+    width:100%;
+}
+.share{
+    width: 200px;
+    margin-bottom: 0px;
+}
+.lastFirstP{
+margin: 10px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
