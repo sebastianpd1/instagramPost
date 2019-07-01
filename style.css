@@ -1,0 +1,25 @@
+body {
+    background: blue;
+}
+h1, h2 {
+
+    color: aqua;
+
+}
+
+p {
+  font-style: italic;
+}
+
+div {
+background: black;
+width: 50%;
+}
+.boxOne {
+    width: 50%;
+    border:1px inset  white ;
+    background: red;
+    margin: auto;
+    position: absolute;
+}
+
